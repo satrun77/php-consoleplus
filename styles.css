@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0 0 20px;
+    font-family: "Arial", "Helvetica", "Verdana", "sans-serif";
+    font-size: 10px;
+}
+#toolbar {
+    padding: 6px 4px;
+    text-align: right;
+}
+
+#ed-settings {
+    display:none;
+    width: 300px;
+    position:absolute;    
+    padding: 8px 10px;
+    z-index: 100;
+}
+#ed-settings ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+#ed-settings li {
+    float: left;
+    margin-bottom: 8px;
+    width: 100%;
+}
+#ed-settings label {
+    float: left;
+    width: 50%;
+}
+#ed-settings select {
+
+}
+.ui-widget-shadow {
+    display:none;
+}
+
+#ed-editor {
+    position: absolute;
+    top: 44px;
+    width:100%; 
+    min-height: 300px;  
+    min-width: 300px;
+}
+#ed-output {
+    border: 1px solid #A3A3A3;
+    display: none;
+    margin: 1px 5px;
+    min-height: 300px;
+    min-width: 300px;
+    overflow: hidden;
+    padding: 1%;
+    position: absolute;
+    width: 97%;
+}
+#credit{
+    color: #AAAAAA;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    text-align: left;
+}
+#credit a {
+    color: #aaa;
+}
+#loading {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 4px 5px -7px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    display: none;
+}
+#loading img {
+    float:left;
+}
+#loading span {
+    float: left;
+    margin: 3px 5px;
+}

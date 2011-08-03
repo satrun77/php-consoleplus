@@ -1,0 +1,1 @@
+a:9:{s:6:"action";s:8:"settings";s:5:"theme";s:14:"pastel_on_dark";s:8:"fontsize";s:4:"12px";s:15:"highlightactive";s:1:"1";s:17:"show_print_margin";s:1:"1";s:8:"soft_tab";s:1:"1";s:11:"phprenderer";s:9:"temporary";s:6:"height";s:4:"1500";s:23:"highlight_selected_word";s:1:"0";}
