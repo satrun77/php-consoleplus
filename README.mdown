@@ -5,7 +5,7 @@ A web php console to test/try your php code on the fly.  This script was inspire
 
 I have re-coded the script to include PHP IDE using Ace (Ajax.org Cloud9 Editor) and some effects using jQuery.
 
-There are several settings that you can configure and save to ajust the editor.
+There are several settings that you can configure and save to adjust the editor.
 
 It is secure since accessible only from the local host, and very easy to setup and use.
 
@@ -23,7 +23,7 @@ http://jamandcheese-on-phptoast.com/
 Changelog
 ---------
 
-- 1.0.0
+- 1.0
   Initial Public Release
 
 License
@@ -36,7 +36,7 @@ See the LICENSE details http://jamandcheese-on-phptoast.com/code-license
 Acknowledgements
 ----------------
 
-PHP Console bundles the following libraries, and the work of their respective author is very much appreciated:
+This PHP Console includes the libraries listed below. The efforts of their authors to produce these libraries is appreciated:
 
 - Ace (Ajax.org Cloud9 Editor) - https://github.com/ajaxorg/ace Licensed under the tri-license MPL/LGPL/GPL.
 - jQuery - http://jquery.com  licensed under the MIT License
