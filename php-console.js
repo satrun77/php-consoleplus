@@ -3,6 +3,11 @@ $(function() {
     var settings = $('#ed-settings'), output = $('#ed-output'),
     editor = $('#ed-editor'), aceeditor, loading = $('#loading');
 
+    if (phpConsole.height) {
+        editor.css('height', phpConsole.height+'px');
+        editor.css('min-height', phpConsole.height+'px');
+    }
+            
     // editor
     aceeditor = ace.edit("ed-editor");
     var CodeMode = require("ace/mode/php").Mode;
@@ -112,6 +117,12 @@ $(function() {
                 aceeditor.setHighlightSelectedWord(true);
             } else {
                 aceeditor.setHighlightSelectedWord(false);
+            }
+            
+            if (phpConsole.height) {
+                editor.css('height', phpConsole.height+'px');
+                editor.css('min-height', phpConsole.height+'px');
+                aceeditor.getSession().updateFull();
             }
         }, 'json');
     });

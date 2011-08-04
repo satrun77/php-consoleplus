@@ -98,6 +98,12 @@ class PhpConsole
                 case 'text':
                     $form .= '<input type="text" id="ed-' . $name . '" name="' . $name . '" value="' . (isset($settings[$name]) ? $settings[$name] : '') . '"/>';
                     break;
+                case 'slider':
+                    $form .= '<div id="ed-' . $name . 'slider" class="element"></div><input type="hidden" id="ed-' . $name . '" name="' . $name . '" value="' . (isset($settings[$name]) ? $settings[$name] : '') . '"/>';
+                    $form .= '<script type="text/javascript">$("#ed-' . $name . 'slider").slider({'
+                           . 'value:'.$settings[$name].',min: 0,max: 1000,step: 10,slide: function(event, ui) {$(this).prev().html("'.$setting['label'].' - "+ui.value+"px");'
+                           . '$("#ed-' . $name . '").val(ui.value);}}).prev().html("'.$setting['label'].' - '.$settings[$name].'px");</script>';
+                    break;
             }
             $form .= '</li>';
         }
@@ -224,11 +230,11 @@ class PhpConsole
                     'eval' => 'eval()'
                 )
             ),
-//            'height' => array(
-//                'label' => 'Height',
-//                'default' => 400,
-//                'element' => 'text'
-//            )
+            'height' => array(
+                'label' => 'Height',
+                'default' => 400,
+                'element' => 'slider'
+            )
         );
 
         $this->userSettings = array(

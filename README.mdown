@@ -23,8 +23,12 @@ http://jamandcheese-on-phptoast.com/
 Changelog
 ---------
 
+- 1.1
+  * New feature adjustable editor height.
+  * CSS changes.
+
 - 1.0
-  Initial Public Release
+  * Initial Public Release 
 
 License
 -------

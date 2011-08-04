@@ -24,16 +24,23 @@ body {
     float: left;
 }
 #ed-settings li {
+    border-bottom: 1px solid #C6C6C6;
     float: left;
     margin-bottom: 8px;
+    padding-bottom: 7px;
+    padding-top: 1px;
     width: 100%;
 }
 #ed-settings label {
     float: left;
-    width: 50%;
+    width: 47%;
 }
 #ed-settings select {
 
+}
+.element {
+    float: left;
+    width: 52%;
 }
 .ui-widget-shadow {
     display:none;
