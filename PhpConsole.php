@@ -6,10 +6,9 @@
  * A web-based php debug console
  *
  * Copyright (C) 2011, Mohamed Alsharaf
- * http://jamandcheese-on-phptoast.com/
+ * http://my.geek.nz
  *
  * Licensed under the new BSD License
- * http://jamandcheese-on-phptoast.com/code-license
  *
  * Source Code: https://github.com/satrun77/php-consoleplus
  */
@@ -157,7 +156,7 @@ class PhpConsole
     private function initData()
     {
         $this->author = array(
-            'website' => 'http://jamandcheese-on-phptoast.com/',
+            'website' => 'http://my.geek.nz',
             'name' => 'Mohamed Alsharaf',
             'sourceCode' => 'https://github.com/satrun77/php-consoleplus'
         );
